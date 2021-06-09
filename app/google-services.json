@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "250612938997",
+    "project_id": "contact-firestone",
+    "storage_bucket": "contact-firestone.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250612938997:android:a5194965ed5a4d965c6dbc",
+        "android_client_info": {
+          "package_name": "com.rtech.contactfirestone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "250612938997-dbe8v14367abkd092jedr62lvlk2l04o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAry4lzo7ILxzS6khhuTdHNU1tYOJT9VVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "250612938997-dbe8v14367abkd092jedr62lvlk2l04o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#DEE3FB">
+
+
+            <EditText
+                android:id="@+id/edName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="Name"
+                android:inputType="text"
+                android:drawableLeft="@drawable/drauser"
+                android:drawableTint="#817B7B"
+                android:drawablePadding="10dp"
+                android:background="@color/white"
+                android:padding="15dp"
+                android:textColorHint="#817B7B"
+                android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/ed_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edName"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/ic_baseline_add_ic_call_24"
+            android:drawablePadding="10dp"
+            android:hint="Number"
+            android:maxLength="13"
+            android:inputType="number"
+            android:padding="15dp"
+            android:textColorHint="#817B7B"
+            android:textSize="15sp" />
+
+        <TextView
+                android:id="@+id/errors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="error"
+                android:layout_margin="10dp"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:textColor="#302E2E"
+                android:textSize="15sp"
+                />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                >
+                <Button
+                    android:id="@+id/save_no"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="50dp"
+                    android:text="Save"/>
+            </RelativeLayout>
+    </LinearLayout>
+</layout>
